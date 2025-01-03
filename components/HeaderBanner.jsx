@@ -1,5 +1,5 @@
 export default function HeaderBanner() {
   return (
-    <div>HeaderBanner</div>
+    <div className="container">This is only a placeholder.</div>
   )
 }
