@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Header() {
+export default function HeaderNavbar() {
   return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
@@ -23,19 +23,20 @@ export default function Header() {
             </ul>
             <form className="d-flex">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button className="btn btn-outline-success">Login</button>
-            </form>
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Mis compras</a>
+              <button className="btn btn-success">Login</button>
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">Compras</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Icon</a>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">(Icon)</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Icon</a>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">(Icon)</a>
               </li>
             </ul>
+            </form>
+
           </div>
         </div>
       </nav>
