@@ -1,7 +1,10 @@
 import React from 'react'
+import R01Carousel from './home/R01Carousel'
 
-export default function Home() {
+export default function HomeFalabella() {
   return (
-    <div>Home Falabella</div>
+    <div>
+      <R01Carousel />
+    </div>
   )
 }

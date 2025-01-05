@@ -1,7 +1,9 @@
+import HomeFalabella from "./falabella/page";
+
 export default function Home() {
   return (
     <div className="container default-page">
-      <h1>This is NextJS + Bootstrap 5</h1>
+      <HomeFalabella />
     </div>
   );
 }
