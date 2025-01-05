@@ -1,4 +1,3 @@
-
 export default function HeaderSubmenu() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
