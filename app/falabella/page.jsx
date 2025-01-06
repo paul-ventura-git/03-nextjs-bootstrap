@@ -3,6 +3,7 @@ import R01Carousel from './home/R01Carousel'
 import R02BannerTecnología from './home/R02BannerTecnología'
 import R03GalleryTecnología from './home/R03GalleryTecnología'
 import R04BannerTecnologia from './home/R04BannerTecnologia'
+import R05GalleryBelleza from './home/R05GalleryBelleza'
 
 export default function HomeFalabella() {
   return (
@@ -19,6 +20,7 @@ export default function HomeFalabella() {
       <br />
       <h2 className='text-center'>Belleza</h2>
       <h5 className='text-center'>Todo lo que necesitas para tu rutina</h5>
+      <R05GalleryBelleza />
     </div>
   )
 }
