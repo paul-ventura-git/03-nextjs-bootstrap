@@ -1,3 +1,5 @@
+import { FaLocationDot } from "react-icons/fa6";
+
 export default function HeaderSubmenu() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -8,7 +10,7 @@ export default function HeaderSubmenu() {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">(Icon) Ingresa tu ubicación</a>
+              <a className="nav-link active" aria-current="page" href="#"><FaLocationDot /> Ingresa tu ubicación</a>
             </li>
           </ul>
           <div className="dropdown">

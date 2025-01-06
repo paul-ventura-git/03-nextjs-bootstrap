@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+import { FaHeart, FaShoppingCart } from "react-icons/fa";
+
 export default function HeaderNavbar() {
   return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -29,10 +31,10 @@ export default function HeaderNavbar() {
                 <a className="nav-link active" aria-current="page" href="#">Compras</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">(Icon)</a>
+                <a className="nav-link active" aria-current="page" href="#"><FaHeart /></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">(Icon)</a>
+                <a className="nav-link active" aria-current="page" href="#"><FaShoppingCart /></a>
               </li>
             </ul>
             </form>
