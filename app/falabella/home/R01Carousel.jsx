@@ -3,13 +3,13 @@ export default function R01Carousel() {
     <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="10000">
-          <img src="https://picsum.photos/800/300?random=1" className="d-block w-100" alt="..." />
+          <img src="https://picsum.photos/1200/400?random=1" className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item" data-bs-interval="2000">
-          <img src="https://picsum.photos/800/300?random=2" className="d-block w-100" alt="..." />
+          <img src="https://picsum.photos/1200/400?random=2" className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src="https://picsum.photos/800/300?random=3" className="d-block w-100" alt="..." />
+          <img src="https://picsum.photos/1200/400?random=3" className="d-block w-100" alt="..." />
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
