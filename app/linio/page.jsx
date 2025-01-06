@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div>Home Linio</div>
+    <div className="container default-page">
+      Home Linio
+    </div>
   )
 }

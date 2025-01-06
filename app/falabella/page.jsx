@@ -7,7 +7,7 @@ import R05GalleryBelleza from './home/R05GalleryBelleza'
 
 export default function HomeFalabella() {
   return (
-    <div>
+    <div className='container'>
       <R01Carousel />
       <br />
       <h2 className='text-center'>Tecnología</h2>
