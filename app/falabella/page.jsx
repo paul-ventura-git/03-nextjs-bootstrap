@@ -1,4 +1,3 @@
-import React from 'react'
 import R01Carousel from './home/R01Carousel'
 import R02BannerTecnología from './home/R02BannerTecnología'
 import R03GalleryTecnología from './home/R03GalleryTecnología'
@@ -7,7 +6,7 @@ import R05GalleryBelleza from './home/R05GalleryBelleza'
 
 export default function HomeFalabella() {
   return (
-    <div className='container'>
+    <div className='container default-page'>
       <R01Carousel />
       <br />
       <h2 className='text-center'>Tecnología</h2>

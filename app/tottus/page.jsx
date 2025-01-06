@@ -1,9 +1,10 @@
-import React from 'react'
+import R01Carousel from './home/R01Carousel'
 
 export default function Home() {
   return (
     <div className="container default-page">
-      Home Tottus
+      <R01Carousel />
+      <br />
     </div>
   )
 }

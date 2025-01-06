@@ -4,7 +4,7 @@ import { FaHeart, FaShoppingCart } from "react-icons/fa";
 
 export default function HeaderNavbar() {
   return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: "#C300A2"}}>
         <div className="container">
           <a className="navbar-brand" href="#">Linio</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
